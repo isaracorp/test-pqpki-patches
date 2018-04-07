@@ -9,7 +9,7 @@ Get the test-pqpki patches (if you're reading this you may have already done
 this):
 
 <pre>
-git clone https://github.com/isaracorp/test-pqpki.git
+git clone https://github.com/isaracorp/test-pqpki-patches.git
 </pre>
 
 Get the test-pqpki openssl and libest repos and apply the test-pqpki patches:
@@ -17,11 +17,11 @@ Get the test-pqpki openssl and libest repos and apply the test-pqpki patches:
 <pre>
 git clone https://github.com/isaracorp/openssl.git -b test-pqpki-v1.0.0
 cd openssl
-git apply ../test-pqpki/v1.0.0/test-pqpki-openssl.patch
+git apply ../test-pqpki-patches/v1.0.0/test-pqpki-openssl.patch
 cd ..
 git clone https://github.com/cisco/libest.git -b rel-2.1.0
 cd libest
-git apply ../test-pqpki/v1.0.0/test-pqpki-libest.patch
+git apply ../test-pqpki-patches/v1.0.0/test-pqpki-libest.patch
 cd ..
 </pre>
 
